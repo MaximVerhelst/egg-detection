@@ -1,0 +1,23 @@
+# Base YOLO model (not needed, downloaded automatically)
+yolov8n.pt
+
+# Calibration (machine-specific)
+calibration.json
+
+# Training images (too large for Git)
+data_collection/images/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+
+# Datasets (managed via Roboflow)
+datasets/
+
+# OS
+.DS_Store
+Thumbs.db
